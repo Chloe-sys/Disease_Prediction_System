@@ -1,6 +1,4 @@
-# Disease Prediction and Medical Recommendation System 🩺
-
-This repository contains the implementation of a Disease Prediction and Medical Recommendation System developed for the CS 584 Machine Learning course.
+# Disease Prediction and Medical Recommendation System 
 
 ## Introduction
 The Disease Prediction and Medical Recommendation System leverages machine learning techniques to predict diseases based on user-entered symptoms. It provides recommendations for medications, diets, and workouts tailored to specific diseases. The project uses a dataset from Kaggle comprising symptoms, diseases, medications, and other medical attributes to train and evaluate machine learning models.
@@ -27,20 +25,16 @@ The project files are organized into the following directories:
 ### 4. static
 - `bgCover.jpg`, `img.png` : Images utilized in the frontend webpage.
 
-### 5. screenshots
-- Includes screenshots of the project.
-
-
 ## How to Run the Project
 To run the Disease Prediction and Medical Recommendation System:
 
 1. **Install required Python libraries:**
    ```bash
-   pip install pandas scikit-learn flask ast numpy fuzzywuzzy pickle
+   pip install pandas scikit-learn flask numpy fuzzywuzzy
 
 2. **Navigate to the project directory:**
    ```bash
-   cd ML_project
+   cd Disease_system
 
 3. **Start the Flask application:**
    ```bash
@@ -49,17 +43,4 @@ To run the Disease Prediction and Medical Recommendation System:
 4. **Access the web interface in your browser at:**
    ```bash
    http://localhost:5000
-
-## Team Members
-
-- Tanmay Pramanick - A20541164
-- Kunal Rajput - A20540912
-- Soham Sonar - A20541266
-
-## Project Files Overview
-
-- `main.py`: Entry point for the Flask web application.
-- `disease_prediction_system.ipynb`: Jupyter Notebook with data preprocessing and model training.
-- `CS584_Project_Report.pdf`: Detailed report on methodologies, model evaluation, results, and future enhancements.
-- `index.html`: Front-end interface for the web application.
 
